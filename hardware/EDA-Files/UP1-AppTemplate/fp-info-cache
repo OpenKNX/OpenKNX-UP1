@@ -1,0 +1,106 @@
+24667511942748
+OpenKNX
+ItsyBitsyM0
+Adafruit ItsyBitsy M0 Express with all pins
+ItsyBitsyM0
+0
+33
+33
+OpenKNX
+KNX_Connector
+Through hole straight pin header, 2x05, 2.54mm pitch, double rows
+Through hole pin header THT 2x05 2.54mm double row
+0
+2
+2
+OpenKNX
+MicroBCU2_PinHeader_SMD
+Konnekting MicroBCU2 Horizontal 2.54 SMD PinHeader/PinSocket 1x07
+KNX Konnekting BCU MicroBCU MicroBCU2 SMD
+0
+7
+7
+OpenKNX
+MicroBCU2_PinSocket
+Konnekting MicroBCU2 Horizontal 2.54 PinSocket/PinHeader 1x07
+KNX Konnekting BCU MicroBCU MicroBCU2
+0
+7
+7
+OpenKNX
+MicroBCU2_PinSocket_LowProfile
+Konnekting MicroBCU2 Horizontal 2.54 PinSocket/PinHeader 1x07
+KNX Konnekting BCU MicroBCU MicroBCU2
+0
+7
+7
+OpenKNX
+MicroBCU2_Solderd_Vertical
+Konnekting MicroBCU2 Horizontal 2.54 PinSocket/PinHeader 1x07
+KNX Konnekting BCU MicroBCU MicroBCU2
+0
+7
+7
+OpenKNX
+NanoBCU_PinHeader_SMD
+OpenKNX NanoBCU Horizontal 2.54 SMD PinHeader/PinSocket 1x07
+OpenKNX BCU NanoBCU SMD
+0
+7
+7
+OpenKNX
+NanoBCU_PinHeader_SMD_low_profile
+OpenKNX NanoBCU Horizontal 2.54 SMD PinHeader/PinSocket 1x07
+OpenKNX BCU NanoBCU SMD
+0
+7
+7
+OpenKNX
+NanoBCU_PinHeader_SMD_lowest_profile
+OpenKNX NanoBCU Horizontal 2.54 SMD PinHeader/PinSocket 1x07
+OpenKNX BCU NanoBCU SMD
+0
+7
+7
+OpenKNX
+OpenKNX_UP1-PCBConnector_1x20_App
+Footprint for the connection to the UP1-Controller2040
+OpenKNX UP1
+0
+20
+20
+OpenKNX
+OpenKNX_UP1-PCBConnector_1x20_App_3D
+Footprint for the connection to the UP1-Controller2040 with 3D-modell of the controller
+OpenKNX UP1
+0
+20
+20
+OpenKNX
+OpenKNX_UP1-PCBConnector_1x20_Controller
+OpenKNX UP1 PCBConnector Controller
+OpenKNX UP1
+0
+20
+20
+OpenKNX
+RPi_Pico_SMD_TH
+Raspberry Pi Pico Board 
+Pi Pico Rasperberry PiPico
+0
+86
+43
+OpenKNX
+Siemens_UP117_12_flat
+
+
+0
+12
+12
+OpenKNX
+Siemens_UP117_12_flat_header_only
+
+
+0
+10
+10
