@@ -1,0 +1,497 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "UP1-Progger"
+Date "2022-02-10"
+Rev "V00.10"
+Comp "OpenKNX"
+Comment1 "by SirSydom <com@sirsydom.de>"
+Comment2 ""
+Comment3 ""
+Comment4 "http://OpenKNX.de"
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x08 J1
+U 1 1 607AA434
+P 8650 2750
+F 0 "J1" H 8730 2792 50  0000 L CNN
+F 1 "KUPS-Conn" H 8730 2701 50  0000 L CNN
+F 2 "Connector_PinSocket_1.27mm:PinSocket_1x08_P1.27mm_Vertical" H 8650 2750 50  0001 C CNN
+F 3 "~" H 8650 2750 50  0001 C CNN
+	1    8650 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 607AA722
+P 8350 2450
+F 0 "#PWR0101" H 8350 2200 50  0001 C CNN
+F 1 "GND" V 8355 2322 50  0000 R CNN
+F 2 "" H 8350 2450 50  0001 C CNN
+F 3 "" H 8350 2450 50  0001 C CNN
+	1    8350 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 607AA853
+P 8350 2550
+F 0 "#PWR0102" H 8350 2400 50  0001 C CNN
+F 1 "+3.3V" V 8365 2678 50  0000 L CNN
+F 2 "" H 8350 2550 50  0001 C CNN
+F 3 "" H 8350 2550 50  0001 C CNN
+	1    8350 2550
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8350 2650 0    50   Input ~ 0
+D-
+Text GLabel 8350 2750 0    50   Input ~ 0
+D+
+Text GLabel 8350 2850 0    50   Input ~ 0
+SWCLK
+Text GLabel 8350 2950 0    50   Input ~ 0
+SWDIO
+Text GLabel 8350 3050 0    50   Input ~ 0
+Reset
+Wire Wire Line
+	8350 2450 8450 2450
+Wire Wire Line
+	8350 2550 8450 2550
+Wire Wire Line
+	8350 2650 8450 2650
+Wire Wire Line
+	8350 2750 8450 2750
+Wire Wire Line
+	8350 2850 8450 2850
+Wire Wire Line
+	8350 2950 8450 2950
+Wire Wire Line
+	8350 3050 8450 3050
+$Comp
+L power:+5V #PWR0103
+U 1 1 607AF0AF
+P 5300 1950
+F 0 "#PWR0103" H 5300 1800 50  0001 C CNN
+F 1 "+5V" V 5315 2078 50  0000 L CNN
+F 2 "" H 5300 1950 50  0001 C CNN
+F 3 "" H 5300 1950 50  0001 C CNN
+	1    5300 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 1950 5400 1950
+$Comp
+L power:GND #PWR0104
+U 1 1 607AF55E
+P 5900 2500
+F 0 "#PWR0104" H 5900 2250 50  0001 C CNN
+F 1 "GND" H 5905 2327 50  0000 C CNN
+F 2 "" H 5900 2500 50  0001 C CNN
+F 3 "" H 5900 2500 50  0001 C CNN
+	1    5900 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0105
+U 1 1 607AF9AC
+P 6650 1950
+F 0 "#PWR0105" H 6650 1800 50  0001 C CNN
+F 1 "+3.3V" V 6665 2078 50  0000 L CNN
+F 2 "" H 6650 1950 50  0001 C CNN
+F 3 "" H 6650 1950 50  0001 C CNN
+	1    6650 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6200 1950 6350 1950
+Wire Wire Line
+	5900 2250 5900 2300
+$Comp
+L Device:C C2
+U 1 1 607B05D5
+P 6350 2100
+F 0 "C2" H 6465 2146 50  0000 L CNN
+F 1 "1uF" H 6465 2055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6388 1950 50  0001 C CNN
+F 3 "~" H 6350 2100 50  0001 C CNN
+	1    6350 2100
+	1    0    0    -1  
+$EndComp
+Connection ~ 6350 1950
+Wire Wire Line
+	6350 1950 6650 1950
+$Comp
+L Device:C C1
+U 1 1 607B0DC9
+P 5400 2100
+F 0 "C1" H 5515 2146 50  0000 L CNN
+F 1 "1uF" H 5515 2055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5438 1950 50  0001 C CNN
+F 3 "~" H 5400 2100 50  0001 C CNN
+	1    5400 2100
+	1    0    0    -1  
+$EndComp
+Connection ~ 5400 1950
+Wire Wire Line
+	5400 1950 5600 1950
+Wire Wire Line
+	5400 2250 5400 2300
+Wire Wire Line
+	5400 2300 5900 2300
+Connection ~ 5900 2300
+Wire Wire Line
+	5900 2300 5900 2500
+Wire Wire Line
+	5900 2300 6350 2300
+Wire Wire Line
+	6350 2300 6350 2250
+Text GLabel 6450 3750 2    50   Input ~ 0
+Reset
+Wire Wire Line
+	6250 3750 6450 3750
+$Comp
+L power:GND #PWR0106
+U 1 1 607B1C46
+P 5750 4050
+F 0 "#PWR0106" H 5750 3800 50  0001 C CNN
+F 1 "GND" H 5755 3877 50  0000 C CNN
+F 2 "" H 5750 4050 50  0001 C CNN
+F 3 "" H 5750 4050 50  0001 C CNN
+	1    5750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B J3
+U 1 1 607B278B
+P 2150 1550
+F 0 "J3" H 2207 2017 50  0000 C CNN
+F 1 "USB_B" H 2207 1926 50  0000 C CNN
+F 2 "sirsydom:USB_B_OST_USB-B1HSxx_Horizontal" H 2300 1500 50  0001 C CNN
+F 3 " ~" H 2300 1500 50  0001 C CNN
+	1    2150 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 607B36B9
+P 2150 2100
+F 0 "#PWR0107" H 2150 1850 50  0001 C CNN
+F 1 "GND" H 2155 1927 50  0000 C CNN
+F 2 "" H 2150 2100 50  0001 C CNN
+F 3 "" H 2150 2100 50  0001 C CNN
+	1    2150 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 2100 2150 1950
+$Comp
+L power:+5V #PWR0108
+U 1 1 607B3FA9
+P 2600 1350
+F 0 "#PWR0108" H 2600 1200 50  0001 C CNN
+F 1 "+5V" V 2615 1478 50  0000 L CNN
+F 2 "" H 2600 1350 50  0001 C CNN
+F 3 "" H 2600 1350 50  0001 C CNN
+	1    2600 1350
+	0    1    1    0   
+$EndComp
+Text GLabel 2600 1650 2    50   Input ~ 0
+D-
+Text GLabel 2600 1550 2    50   Input ~ 0
+D+
+Wire Wire Line
+	2600 1350 2450 1350
+Wire Wire Line
+	2450 1550 2600 1550
+Wire Wire Line
+	2600 1650 2450 1650
+$Comp
+L Connector:USB_B_Micro J2
+U 1 1 607B5533
+P 2100 2950
+F 0 "J2" H 2157 3417 50  0000 C CNN
+F 1 "USB_B_Micro" H 2157 3326 50  0000 C CNN
+F 2 "sirsydom:USB_Micro-B_JING_C10418" H 2250 2900 50  0001 C CNN
+F 3 "~" H 2250 2900 50  0001 C CNN
+	1    2100 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0109
+U 1 1 607B5EA4
+P 2550 2750
+F 0 "#PWR0109" H 2550 2600 50  0001 C CNN
+F 1 "+5V" V 2565 2878 50  0000 L CNN
+F 2 "" H 2550 2750 50  0001 C CNN
+F 3 "" H 2550 2750 50  0001 C CNN
+	1    2550 2750
+	0    1    1    0   
+$EndComp
+Text GLabel 2550 3050 2    50   Input ~ 0
+D-
+Text GLabel 2550 2950 2    50   Input ~ 0
+D+
+Wire Wire Line
+	2550 2750 2400 2750
+Wire Wire Line
+	2400 2950 2550 2950
+Wire Wire Line
+	2550 3050 2400 3050
+$Comp
+L power:GND #PWR0110
+U 1 1 607B6C6B
+P 2100 3500
+F 0 "#PWR0110" H 2100 3250 50  0001 C CNN
+F 1 "GND" H 2105 3327 50  0000 C CNN
+F 2 "" H 2100 3500 50  0001 C CNN
+F 3 "" H 2100 3500 50  0001 C CNN
+	1    2100 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 3500 2100 3350
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J4
+U 1 1 607B7DEE
+P 2600 4700
+F 0 "J4" H 2650 5117 50  0000 C CNN
+F 1 "SWD_Interface" H 2650 5026 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 2600 4700 50  0001 C CNN
+F 3 "~" H 2600 4700 50  0001 C CNN
+	1    2600 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0111
+U 1 1 607B8146
+P 2200 4500
+F 0 "#PWR0111" H 2200 4350 50  0001 C CNN
+F 1 "+3.3V" V 2215 4628 50  0000 L CNN
+F 2 "" H 2200 4500 50  0001 C CNN
+F 3 "" H 2200 4500 50  0001 C CNN
+	1    2200 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 607B918A
+P 2200 4900
+F 0 "#PWR0112" H 2200 4650 50  0001 C CNN
+F 1 "GND" H 2205 4727 50  0000 C CNN
+F 2 "" H 2200 4900 50  0001 C CNN
+F 3 "" H 2200 4900 50  0001 C CNN
+	1    2200 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 4500 2400 4500
+Wire Wire Line
+	2400 4600 2200 4600
+Wire Wire Line
+	2200 4600 2200 4700
+Wire Wire Line
+	2400 4700 2200 4700
+Connection ~ 2200 4700
+Wire Wire Line
+	2400 4900 2200 4900
+Connection ~ 2200 4900
+Text GLabel 3100 4500 2    50   Input ~ 0
+SWDIO
+Text GLabel 3100 4600 2    50   Input ~ 0
+SWCLK
+Text GLabel 3100 4900 2    50   Input ~ 0
+Reset
+Wire Wire Line
+	3100 4500 2900 4500
+Wire Wire Line
+	2900 4600 3100 4600
+Wire Wire Line
+	2900 4900 3100 4900
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J5
+U 1 1 607BE147
+P 2600 5900
+F 0 "J5" H 2650 6317 50  0000 C CNN
+F 1 "ST Link V2 Clone" H 2650 6226 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 2600 5900 50  0001 C CNN
+F 3 "~" H 2600 5900 50  0001 C CNN
+	1    2600 5900
+	1    0    0    -1  
+$EndComp
+Text GLabel 2200 5700 0    50   Input ~ 0
+Reset
+$Comp
+L power:GND #PWR0113
+U 1 1 607BFBE5
+P 2200 5900
+F 0 "#PWR0113" H 2200 5650 50  0001 C CNN
+F 1 "GND" V 2205 5772 50  0000 R CNN
+F 2 "" H 2200 5900 50  0001 C CNN
+F 3 "" H 2200 5900 50  0001 C CNN
+	1    2200 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0114
+U 1 1 607C0514
+P 2200 6000
+F 0 "#PWR0114" H 2200 5850 50  0001 C CNN
+F 1 "+3.3V" V 2215 6128 50  0000 L CNN
+F 2 "" H 2200 6000 50  0001 C CNN
+F 3 "" H 2200 6000 50  0001 C CNN
+	1    2200 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0115
+U 1 1 607C0CD3
+P 3100 6000
+F 0 "#PWR0115" H 3100 5850 50  0001 C CNN
+F 1 "+3.3V" V 3115 6128 50  0000 L CNN
+F 2 "" H 3100 6000 50  0001 C CNN
+F 3 "" H 3100 6000 50  0001 C CNN
+	1    3100 6000
+	0    1    1    0   
+$EndComp
+Text GLabel 3100 5700 2    50   Input ~ 0
+SWCLK
+Text GLabel 3100 5800 2    50   Input ~ 0
+SWDIO
+$Comp
+L power:GND #PWR0116
+U 1 1 607C1559
+P 3100 5900
+F 0 "#PWR0116" H 3100 5650 50  0001 C CNN
+F 1 "GND" V 3105 5772 50  0000 R CNN
+F 2 "" H 3100 5900 50  0001 C CNN
+F 3 "" H 3100 5900 50  0001 C CNN
+	1    3100 5900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2400 5700 2200 5700
+Wire Wire Line
+	2200 5900 2400 5900
+Wire Wire Line
+	2400 6000 2200 6000
+Wire Wire Line
+	2900 6000 3100 6000
+Wire Wire Line
+	3100 5900 2900 5900
+Wire Wire Line
+	2900 5800 3100 5800
+Wire Wire Line
+	3100 5700 2900 5700
+$Comp
+L Connector_Generic:Conn_01x05 J6
+U 1 1 607C77D8
+P 4050 1550
+F 0 "J6" H 4130 1592 50  0000 L CNN
+F 1 "USB_2.54" H 4130 1501 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 4050 1550 50  0001 C CNN
+F 3 "~" H 4050 1550 50  0001 C CNN
+	1    4050 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0117
+U 1 1 607D3379
+P 3650 1350
+F 0 "#PWR0117" H 3650 1200 50  0001 C CNN
+F 1 "+5V" V 3665 1478 50  0000 L CNN
+F 2 "" H 3650 1350 50  0001 C CNN
+F 3 "" H 3650 1350 50  0001 C CNN
+	1    3650 1350
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3650 1450 0    50   Input ~ 0
+D-
+Text GLabel 3650 1550 0    50   Input ~ 0
+D+
+$Comp
+L power:GND #PWR0118
+U 1 1 607D3B0F
+P 3650 1750
+F 0 "#PWR0118" H 3650 1500 50  0001 C CNN
+F 1 "GND" V 3655 1622 50  0000 R CNN
+F 2 "" H 3650 1750 50  0001 C CNN
+F 3 "" H 3650 1750 50  0001 C CNN
+	1    3650 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 1350 3850 1350
+Wire Wire Line
+	3850 1450 3650 1450
+Wire Wire Line
+	3650 1550 3850 1550
+Wire Wire Line
+	3850 1750 3650 1750
+$Comp
+L Switch:SW_Push SW1
+U 1 1 607EDAC6
+P 6050 3750
+F 0 "SW1" H 6050 4035 50  0000 C CNN
+F 1 "Reset" H 6050 3944 50  0000 C CNN
+F 2 "sirsydom:SW_Push_Xunpu_TS-1089S_Handsolder" H 6050 3950 50  0001 C CNN
+F 3 "~" H 6050 3950 50  0001 C CNN
+	1    6050 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 3750 5750 3750
+Wire Wire Line
+	5750 3750 5750 4050
+Wire Wire Line
+	2200 4850 2200 4900
+Wire Wire Line
+	2200 4700 2200 4900
+Text GLabel 8350 3150 0    50   Input ~ 0
+Bootsel
+Wire Wire Line
+	8350 3150 8450 3150
+Text GLabel 7750 3750 2    50   Input ~ 0
+Bootsel
+Wire Wire Line
+	7550 3750 7750 3750
+$Comp
+L power:GND #PWR0119
+U 1 1 613F2EF6
+P 7050 4050
+F 0 "#PWR0119" H 7050 3800 50  0001 C CNN
+F 1 "GND" H 7055 3877 50  0000 C CNN
+F 2 "" H 7050 4050 50  0001 C CNN
+F 3 "" H 7050 4050 50  0001 C CNN
+	1    7050 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 613F2F00
+P 7350 3750
+F 0 "SW2" H 7350 4035 50  0000 C CNN
+F 1 "Bootsel" H 7350 3944 50  0000 C CNN
+F 2 "sirsydom:SW_Push_Xunpu_TS-1089S_Handsolder" H 7350 3950 50  0001 C CNN
+F 3 "~" H 7350 3950 50  0001 C CNN
+	1    7350 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 3750 7050 3750
+Wire Wire Line
+	7050 3750 7050 4050
+$Comp
+L Regulator_Linear:MCP1700-3302E_SOT23 U1
+U 1 1 613F5884
+P 5900 1950
+F 0 "U1" H 5900 2192 50  0000 C CNN
+F 1 "LDO_3V3_SOT23-3" H 5900 2101 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5900 2175 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf" H 5900 1950 50  0001 C CNN
+	1    5900 1950
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
