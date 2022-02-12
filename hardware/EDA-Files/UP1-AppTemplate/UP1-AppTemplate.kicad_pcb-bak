@@ -11,7 +11,7 @@
 
   (page A4)
   (title_block
-    (date 2022-01-27)
+    (date 2022-02-11)
     (rev V00.01)
   )
 
@@ -107,7 +107,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerbers_univ/"))
+      (outputdirectory "gerbers/"))
   )
 
   (net 0 "")
