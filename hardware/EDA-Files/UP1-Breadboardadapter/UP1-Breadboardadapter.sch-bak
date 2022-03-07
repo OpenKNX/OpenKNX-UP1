@@ -1,0 +1,130 @@
+EESchema Schematic File Version 4
+LIBS:UP1-Breadboardadapter-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "UP1-Breadboardadapter"
+Date "2022-03-07"
+Rev "V00.01"
+Comp "OpenKNX"
+Comment1 "by SirSydom <com@sirsydom.de>"
+Comment2 ""
+Comment3 ""
+Comment4 "http://OpenKNX.de"
+$EndDescr
+$Comp
+L OpenKNX:OpenKNX_UP1-Controller2040 J2
+U 1 1 6225EF54
+P 2100 2500
+F 0 "J2" H 2058 3715 50  0000 C CNN
+F 1 "OpenKNX_UP1-Controller2040" H 2058 3624 50  0000 C CNN
+F 2 "Connector_PinSocket_1.27mm:PinSocket_1x20_P1.27mm_Vertical" H 2000 2050 50  0001 C CNN
+F 3 "" H 2000 2050 50  0001 C CNN
+	1    2100 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J3
+U 1 1 6225E0C2
+P 3550 3800
+F 0 "J3" H 3630 3792 50  0000 L CNN
+F 1 "Conn_01x10" H 3630 3701 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 3550 3800 50  0001 C CNN
+F 3 "~" H 3550 3800 50  0001 C CNN
+	1    3550 3800
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J1
+U 1 1 6225DAFC
+P 3550 1000
+F 0 "J1" H 3630 992 50  0000 L CNN
+F 1 "Conn_01x10" H 3630 901 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 3550 1000 50  0001 C CNN
+F 3 "~" H 3550 1000 50  0001 C CNN
+	1    3550 1000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2450 1550 3150 1550
+Wire Wire Line
+	3150 1550 3150 1200
+Wire Wire Line
+	3150 1650 3150 3600
+Wire Wire Line
+	2450 1650 3150 1650
+Wire Wire Line
+	3250 1750 3250 1200
+Wire Wire Line
+	2450 1750 3250 1750
+Wire Wire Line
+	2450 1850 3250 1850
+Wire Wire Line
+	3250 1850 3250 3600
+Wire Wire Line
+	2450 1950 3350 1950
+Wire Wire Line
+	3350 1950 3350 1200
+Wire Wire Line
+	2450 2050 3350 2050
+Wire Wire Line
+	3350 2050 3350 3600
+Wire Wire Line
+	2450 2150 3450 2150
+Wire Wire Line
+	3450 2150 3450 1200
+Wire Wire Line
+	2450 2250 3450 2250
+Wire Wire Line
+	3450 2250 3450 3600
+Wire Wire Line
+	2450 2350 3550 2350
+Wire Wire Line
+	3550 2350 3550 1200
+Wire Wire Line
+	2450 2450 3550 2450
+Wire Wire Line
+	3550 2450 3550 3600
+Wire Wire Line
+	2450 2550 3650 2550
+Wire Wire Line
+	3650 2550 3650 1200
+Wire Wire Line
+	2450 2650 3650 2650
+Wire Wire Line
+	3650 2650 3650 3600
+Wire Wire Line
+	2450 2750 3750 2750
+Wire Wire Line
+	3750 2750 3750 1200
+Wire Wire Line
+	2450 2850 3750 2850
+Wire Wire Line
+	3750 2850 3750 3600
+Wire Wire Line
+	2450 2950 3850 2950
+Wire Wire Line
+	3850 2950 3850 1200
+Wire Wire Line
+	2450 3050 3850 3050
+Wire Wire Line
+	3850 3050 3850 3600
+Wire Wire Line
+	2450 3150 3950 3150
+Wire Wire Line
+	3950 3150 3950 1200
+Wire Wire Line
+	2450 3250 3950 3250
+Wire Wire Line
+	3950 3250 3950 3600
+Wire Wire Line
+	2450 3350 4050 3350
+Wire Wire Line
+	4050 3350 4050 1200
+Wire Wire Line
+	2450 3450 4050 3450
+Wire Wire Line
+	4050 3450 4050 3600
+$EndSCHEMATC
