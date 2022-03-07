@@ -1,17 +1,18 @@
 EESchema Schematic File Version 4
+LIBS:UP1-Progger-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "UP1-Progger"
-Date "2022-02-10"
-Rev "V00.10"
+Date "2022-03-06"
+Rev "V00.20"
 Comp "OpenKNX"
 Comment1 "by SirSydom <com@sirsydom.de>"
 Comment2 ""
 Comment3 ""
-Comment4 "https://github.com/OpenKNX"
+Comment4 "http://OpenKNX.de"
 $EndDescr
 $Comp
 L Connector_Generic:Conn_01x08 J1
@@ -115,7 +116,7 @@ U 1 1 607B05D5
 P 6350 2100
 F 0 "C2" H 6465 2146 50  0000 L CNN
 F 1 "1uF" H 6465 2055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6388 1950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6388 1950 50  0001 C CNN
 F 3 "~" H 6350 2100 50  0001 C CNN
 	1    6350 2100
 	1    0    0    -1  
@@ -129,7 +130,7 @@ U 1 1 607B0DC9
 P 5400 2100
 F 0 "C1" H 5515 2146 50  0000 L CNN
 F 1 "1uF" H 5515 2055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5438 1950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5438 1950 50  0001 C CNN
 F 3 "~" H 5400 2100 50  0001 C CNN
 	1    5400 2100
 	1    0    0    -1  
@@ -163,51 +164,6 @@ F 3 "" H 5750 4050 50  0001 C CNN
 	1    5750 4050
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:USB_B J3
-U 1 1 607B278B
-P 2150 1550
-F 0 "J3" H 2207 2017 50  0000 C CNN
-F 1 "USB_B" H 2207 1926 50  0000 C CNN
-F 2 "sirsydom:USB_B_OST_USB-B1HSxx_Horizontal" H 2300 1500 50  0001 C CNN
-F 3 " ~" H 2300 1500 50  0001 C CNN
-	1    2150 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0107
-U 1 1 607B36B9
-P 2150 2100
-F 0 "#PWR0107" H 2150 1850 50  0001 C CNN
-F 1 "GND" H 2155 1927 50  0000 C CNN
-F 2 "" H 2150 2100 50  0001 C CNN
-F 3 "" H 2150 2100 50  0001 C CNN
-	1    2150 2100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2150 2100 2150 1950
-$Comp
-L power:+5V #PWR0108
-U 1 1 607B3FA9
-P 2600 1350
-F 0 "#PWR0108" H 2600 1200 50  0001 C CNN
-F 1 "+5V" V 2615 1478 50  0000 L CNN
-F 2 "" H 2600 1350 50  0001 C CNN
-F 3 "" H 2600 1350 50  0001 C CNN
-	1    2600 1350
-	0    1    1    0   
-$EndComp
-Text GLabel 2600 1650 2    50   Input ~ 0
-D-
-Text GLabel 2600 1550 2    50   Input ~ 0
-D+
-Wire Wire Line
-	2600 1350 2450 1350
-Wire Wire Line
-	2450 1550 2600 1550
-Wire Wire Line
-	2600 1650 2450 1650
 $Comp
 L Connector:USB_B_Micro J2
 U 1 1 607B5533
@@ -385,51 +341,6 @@ Wire Wire Line
 	2900 5800 3100 5800
 Wire Wire Line
 	3100 5700 2900 5700
-$Comp
-L Connector_Generic:Conn_01x05 J6
-U 1 1 607C77D8
-P 4050 1550
-F 0 "J6" H 4130 1592 50  0000 L CNN
-F 1 "USB_2.54" H 4130 1501 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 4050 1550 50  0001 C CNN
-F 3 "~" H 4050 1550 50  0001 C CNN
-	1    4050 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0117
-U 1 1 607D3379
-P 3650 1350
-F 0 "#PWR0117" H 3650 1200 50  0001 C CNN
-F 1 "+5V" V 3665 1478 50  0000 L CNN
-F 2 "" H 3650 1350 50  0001 C CNN
-F 3 "" H 3650 1350 50  0001 C CNN
-	1    3650 1350
-	0    -1   -1   0   
-$EndComp
-Text GLabel 3650 1450 0    50   Input ~ 0
-D-
-Text GLabel 3650 1550 0    50   Input ~ 0
-D+
-$Comp
-L power:GND #PWR0118
-U 1 1 607D3B0F
-P 3650 1750
-F 0 "#PWR0118" H 3650 1500 50  0001 C CNN
-F 1 "GND" V 3655 1622 50  0000 R CNN
-F 2 "" H 3650 1750 50  0001 C CNN
-F 3 "" H 3650 1750 50  0001 C CNN
-	1    3650 1750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3650 1350 3850 1350
-Wire Wire Line
-	3850 1450 3650 1450
-Wire Wire Line
-	3650 1550 3850 1550
-Wire Wire Line
-	3850 1750 3650 1750
 $Comp
 L Switch:SW_Push SW1
 U 1 1 607EDAC6

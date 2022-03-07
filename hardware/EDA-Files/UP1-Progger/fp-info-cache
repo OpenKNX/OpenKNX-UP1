@@ -1,4 +1,4 @@
-17174084874207933
+17213538516024614
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50546,6 +50546,160 @@ net tie
 0
 4
 4
+OpenKNX
+ItsyBitsyM0
+Adafruit ItsyBitsy M0 Express with all pins
+ItsyBitsyM0
+0
+33
+33
+OpenKNX
+KNX_Connector
+Through hole straight pin header, 2x05, 2.54mm pitch, double rows
+Through hole pin header THT 2x05 2.54mm double row
+0
+2
+2
+OpenKNX
+MicroBCU2_PinHeader_SMD
+Konnekting MicroBCU2 Horizontal 2.54 SMD PinHeader/PinSocket 1x07
+KNX Konnekting BCU MicroBCU MicroBCU2 SMD
+0
+7
+7
+OpenKNX
+MicroBCU2_PinSocket
+Konnekting MicroBCU2 Horizontal 2.54 PinSocket/PinHeader 1x07
+KNX Konnekting BCU MicroBCU MicroBCU2
+0
+7
+7
+OpenKNX
+MicroBCU2_PinSocket_LowProfile
+Konnekting MicroBCU2 Horizontal 2.54 PinSocket/PinHeader 1x07
+KNX Konnekting BCU MicroBCU MicroBCU2
+0
+7
+7
+OpenKNX
+MicroBCU2_Solderd_Vertical
+Konnekting MicroBCU2 Horizontal 2.54 PinSocket/PinHeader 1x07
+KNX Konnekting BCU MicroBCU MicroBCU2
+0
+7
+7
+OpenKNX
+NanoBCU_PinHeader_SMD
+OpenKNX NanoBCU Horizontal 2.54 SMD PinHeader/PinSocket 1x07
+OpenKNX BCU NanoBCU SMD
+0
+7
+7
+OpenKNX
+NanoBCU_PinHeader_SMD_low_profile
+OpenKNX NanoBCU Horizontal 2.54 SMD PinHeader/PinSocket 1x07
+OpenKNX BCU NanoBCU SMD
+0
+7
+7
+OpenKNX
+NanoBCU_PinHeader_SMD_lowest_profile
+OpenKNX NanoBCU Horizontal 2.54 SMD PinHeader/PinSocket 1x07
+OpenKNX BCU NanoBCU SMD
+0
+7
+7
+OpenKNX
+OpenKNX_Logo_05x03
+
+
+0
+0
+0
+OpenKNX
+OpenKNX_Logo_07x05
+
+
+0
+0
+0
+OpenKNX
+OpenKNX_Logo_09x06
+
+
+0
+0
+0
+OpenKNX
+OpenKNX_Logo_14x09
+
+
+0
+0
+0
+OpenKNX
+OpenKNX_Logo_18x12
+
+
+0
+0
+0
+OpenKNX
+OpenKNX_Logo_27x17
+
+
+0
+0
+0
+OpenKNX
+OpenKNX_Logo_54x34
+
+
+0
+0
+0
+OpenKNX
+OpenKNX_UP1-PCBConnector_1x20_App
+Footprint for the connection to the UP1-Controller2040
+OpenKNX UP1
+0
+20
+20
+OpenKNX
+OpenKNX_UP1-PCBConnector_1x20_App_3D
+Footprint for the connection to the UP1-Controller2040 with 3D-modell of the controller
+OpenKNX UP1
+0
+20
+20
+OpenKNX
+OpenKNX_UP1-PCBConnector_1x20_Controller
+OpenKNX UP1 PCBConnector Controller
+OpenKNX UP1
+0
+20
+20
+OpenKNX
+RPi_Pico_SMD_TH
+Raspberry Pi Pico Board 
+Pi Pico Rasperberry PiPico
+0
+86
+43
+OpenKNX
+Siemens_UP117_12_flat
+
+
+0
+12
+12
+OpenKNX
+Siemens_UP117_12_flat_header_only
+
+
+0
+10
+10
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800
@@ -76496,6 +76650,13 @@ NPTH_0.5
 0
 0
 sirsydom
+PhoenixContact_MKDS_1,5_3-G-3.5_1x03_P3.5mm_Horizontal
+Generic Phoenix Contact connector footprint for: MC_1,5/6-G-3.81; number of pins: 06; pin pitch: 3.81mm; Angled || order number: 1803316 8A 160V
+phoenix_contact connector MC_01x06_G_3.81mm
+0
+3
+3
+sirsydom
 PhoenixContact_MKDS_1,5_6-G-3.81_1x06_P3.81mm_Horizontal
 Generic Phoenix Contact connector footprint for: MC_1,5/6-G-3.81; number of pins: 06; pin pitch: 3.81mm; Angled || order number: 1803316 8A 160V
 phoenix_contact connector MC_01x06_G_3.81mm
@@ -76572,6 +76733,13 @@ QFN DFN_QFN
 0
 69
 57
+sirsydom
+RPi_Pico_SMD_TH
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
+0
+86
+43
 sirsydom
 SIP-3_P2.54mm_OR_4
 
