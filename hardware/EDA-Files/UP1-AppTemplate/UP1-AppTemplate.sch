@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "KUPS-AppTemplate"
-Date "2022-02-11"
-Rev "V00.01"
+Date "2022-03-08"
+Rev "V00.02"
 Comp "OpenKNX"
 Comment1 "by SirSydom <com@sirsydom.de>"
 Comment2 ""

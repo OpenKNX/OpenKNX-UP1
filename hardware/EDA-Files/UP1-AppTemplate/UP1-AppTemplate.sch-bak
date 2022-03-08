@@ -6,13 +6,13 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "KUPS-AppTemplate"
-Date "2022-01-29"
+Date "2022-02-11"
 Rev "V00.01"
-Comp "OpenLMX"
+Comp "OpenKNX"
 Comment1 "by SirSydom <com@sirsydom.de>"
 Comment2 ""
 Comment3 ""
-Comment4 "https://gitlab.com/knx-makerstuff/"
+Comment4 "https://OpenKNX.de"
 $EndDescr
 $Comp
 L OpenKNX:OpenKNX_UP1-Controller2040 J?
@@ -20,9 +20,9 @@ U 1 1 61F47946
 P 8200 1850
 AR Path="/606C5AC9/61F47946" Ref="J?"  Part="1" 
 AR Path="/60F06D6E/61F47946" Ref="J?"  Part="1" 
-AR Path="/61F47946" Ref="J20"  Part="1" 
-F 0 "J20" H 8118 625 50  0000 C CNN
-F 1 "Conn_01x20" H 8118 716 50  0000 C CNN
+AR Path="/61F47946" Ref="J1"  Part="1" 
+F 0 "J1" H 8118 625 50  0000 C CNN
+F 1 "OpenKNX_UP1-Controller2040" H 8118 716 50  0000 C CNN
 F 2 "OpenKNX:OpenKNX_UP1-PCBConnector_1x20_App_3D" H 8200 1850 50  0001 C CNN
 F 3 "~" H 8200 1850 50  0001 C CNN
 F 4 "C2334" H 8200 1850 50  0001 C CNN "LCSC"
