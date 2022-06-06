@@ -1,4 +1,4 @@
-17213538516024614
+17216773077175034
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -76657,6 +76657,13 @@ phoenix_contact connector MC_01x06_G_3.81mm
 3
 3
 sirsydom
+PhoenixContact_MKDS_1,5_4-G-3.5_1x04_P3.5mm_Horizontal
+Generic Phoenix Contact connector footprint for: MC_1,5/4-G-3.5; number of pins: 04; pin pitch: 3.5mm; Angled
+phoenix_contact connector MC_01x04_G_3.5mm
+0
+4
+4
+sirsydom
 PhoenixContact_MKDS_1,5_6-G-3.81_1x06_P3.81mm_Horizontal
 Generic Phoenix Contact connector footprint for: MC_1,5/6-G-3.81; number of pins: 06; pin pitch: 3.81mm; Angled || order number: 1803316 8A 160V
 phoenix_contact connector MC_01x06_G_3.81mm
@@ -76768,6 +76775,13 @@ Samtec_HLE-120-02-XXX-DV-BE-XX-XX
 0
 40
 40
+sirsydom
+Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM
+
+
+0
+20
+20
 sirsydom
 Siemens_UP117_12_flat
 Through hole straight pin header, 2x05, 2.54mm pitch, double rows
