@@ -1,0 +1,12 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C2",0603,2,1u,C15849
+D1,D_SOD-323,1,1N5819,C191023
+J1,PinSocket_1x08_P1.27mm_Vertical,1,UP1_Prog_Connector,C691120
+J11,CONN-TH_1.25-8A,1,UP1_Prog_Connector,C17700401
+J2,USB_Micro-B_JING_C10418,1,USB_B_Micro,C10418
+J3,PinHeader_1x03_P2.54mm_Vertical,1,Conn_01x03,
+J4,PinHeader_2x05_P1.27mm_Vertical,1,SWD_Interface,C2935953
+J5,IDC-Header_2x05_P2.54mm_Vertical,1,ST Link V2 Clone,C5665
+SW1,C455282_SW-SMD_4P-L4.2-W3.3-P2.15-LS5.1_Handsolder,1,Reset,C455282
+SW2,C455282_SW-SMD_4P-L4.2-W3.3-P2.15-LS5.1_Handsolder,1,Bootsel,C455282
+U1,SOT-23,1,LDO_3V3_SOT23-3,C5446
